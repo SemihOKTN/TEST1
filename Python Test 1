@@ -1,1 +1,89 @@
-print("Hello World")
+PART 1
+print("my")
+"""
+print("my")
+"""
+print("name")
+"""
+print("is")
+print("is")
+print("Semih")
+my
+is
+is
+Semih
+print("Comb1: {aaa}, \nComb2: {hishurt}, \nComb3: {ko}".format(aaa = "nasty jab", hishurt = "uppercut", ko = "fatality"))
+Comb1: nasty jab, 
+Comb2: uppercut, 
+Comb3: fatality
+sayi = 10
+ayi = sayi + 1
+print(sayi)
+print(ayi)
+10
+11
+print(ayi)
+print(sayi)       
+ayi = sayi + 1
+sayi = 10
+​
+​
+11
+10
+print("[sürücü: {şöför}] \n\t[araba: {takım}] \n\t\t[lastik: {hamur}]".format(hamur = "orta hamur", takım = "ferrari", şöför = "Lec"))
+[sürücü: Lec] 
+	[araba: ferrari] 
+		[lastik: orta hamur
+    
+    
+    
+    PART 2
+    
+PART 2
+type(3)  #integer  #tamsayi
+int
+type(2.4) #float #ondalıklısayı
+type(5.0)
+type(2.4) #float #ondalıklısayı
+type(5.0)
+float
+strvar = "Flamingo"
+print(strvar[:3])   #3. karaktere kadar 
+print(strvar[5:])   #5. karakterden sona kadar
+Fla
+ngo
+[] # tek bir eleman alır
+[:] ## baslangic ve bitis arasindaki elemanlar alinir (baslangic dahil)
+[::] ### baslangic ve bitis arasindaki eemanlar ücüncü kisimdaki degere gore degerler alinir
+​
+strvar = "Matematik"
+strvar[3]
+'e'
+gmen almiyor
+strvar[2:5] #5. sembol a olmasına ragmen almiyor
+'tem'
+2. ye geç
+strvar[1:6:2] #1. elemandan 6. elemana kadar olani al ve eleman alirken 2. ye geç
+'aea'
+0
+#  [::] icin bir örnek daha  (bu arada bu sistem pek ideal ve kullanışlı değil. Başka senaryolarla kurtarılabilir. Ama bazen gerekedeebilir)
+strvar = "Cografya"
+strvar[0:8:3]
+​
+'Cry'
+len(strvar)  #length(len) uzunlugu olcuyor
+8
+ = 
+strvar = strvar + " guzeldir "   #CONCATENATION(BAGLAMA, BIRLESTIRME)
+strvar * 4
+'Cografya guzeldir Cografya guzeldir Cografya guzeldir Cografya guzeldir '
+print(strvar.upper())    #upper komutu harfleri buyutuyor.
+print(strvar.lower())    #lower komutu harfleri kucultuyor.
+print(strvar.split())
+print(strvar.split("a"))
+print(strvar.split(sep="a", maxsplit=1))
+COGRAFYA GUZELDIR 
+cografya guzeldir 
+['Cografya', 'guzeldir']
+['Cogr', 'fy', ' guzeldir ']
+['Cogr', 'fya guzeldir ']
